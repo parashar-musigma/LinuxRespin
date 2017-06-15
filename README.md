@@ -11,7 +11,7 @@ dpkg -i xresprobe_*ubuntu9_amd64.deb
 apt-get install -y dialog casper libdebian-installer4 ubiquity-frontend-debconf user-setup discover
 apt-get -fy install
 git clone https://github.com/ch1x0r/LinuxRespin.git
-dpkg -i LinuxRespin/ubuntu/respin_1.1.0-1_all.deb
+dpkg -i LinuxRespin/ubuntu/respin_1.1.0-1_all.deb (optionally if it fails, use: sudo apt-get install squashfs-tools, before running it)
 
 To uninstall, run:
 sudo apt-get remove respin
